@@ -107,7 +107,7 @@ int main(int argc, char** argv) {
         exit(1);
     } 
 
-    /*  Create the segment */
+    /* Create the segment */
     if ((shmid = shmget(key, sizeof(SharedMemory), 0666 | IPC_CREAT)) == -1) {  
         perror("shmget");
         exit(1);
