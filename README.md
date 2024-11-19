@@ -4,7 +4,7 @@ This project implements a simulation of a producer-multiple consumer problem, wh
 Each child process randomly selects a line from a segment and waits for that segment to be stored in shared memory before retrieving it. Each child process can make up to `M_requests` requests. The probability of requesting a line from a new segment is 0.3, while the probability of requesting a line from the previously requested segment is 0.7. The child processes log their requests, submission time, response time, and acquired lines in individual files.
 
 ## Usage
-Use the Makefile to compile, run and clean using the following commands:
+Use the `Makefile` to compile, run and clean using the following commands:
 
 ```bash
 $ make 
