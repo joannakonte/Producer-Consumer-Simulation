@@ -23,5 +23,5 @@ $ ./main <file.txt> <N_lines> <K_children> <M_requests>
 - **K_children:** Number of children
 - **M_requests:** Maximum number of child requests
 
-Please note that this project has been tested and validated on Linux systems.
+⚠️ Please note that this project has been tested and validated on Linux systems.
 
